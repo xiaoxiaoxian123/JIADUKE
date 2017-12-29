@@ -1,0 +1,17 @@
+require.config({
+	//根路径
+	baseUrl:"../js",
+	//配置路径
+	paths:{
+		"jquery":"lib/jquery-1.11.3",
+		"cookie":"lib/jquery.cookie",
+		"swiper":"pulg/swiper.min",
+		"banner":"js/banner",
+		"index":"js/index",
+		"common":"js/common",
+		"show":"js/show",
+		"cart":"js/cart",
+		"login":"js/login",
+		"register":"js/register"
+	}
+})

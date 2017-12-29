@@ -1,0 +1,137 @@
+body, html, ul, li, h4, h3, p, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+em, i, strong, b {
+  display: inline-block;
+}
+
+#head {
+  margin-top: 40px;
+}
+
+#content {
+  width: 1200px;
+  margin: 0 auto;
+  height: 596px;
+  border-top: 1px solid #602962;
+  margin-top: 13px;
+}
+
+.left_img {
+  float: left;
+}
+
+.login_box {
+  float: right;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.login_box p {
+  font-size: 14px;
+  color: red;
+  display: none;
+}
+
+.title {
+  text-align: center;
+  padding: 10px 0;
+  color: #5F295D;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.name {
+  width: 370px;
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px 0px;
+  background: url("../imgs/login_username.jpg") no-repeat left center;
+  padding-left: 30px;
+  font-size: 18px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.mima {
+  width: 370px;
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px 0px;
+  background: url("../imgs/login_password.jpg") no-repeat left center;
+  padding-left: 30px;
+  font-size: 18px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.auto {
+  height: 40px;
+  line-height: 40px;
+  margin: 10px 0;
+}
+
+.reg {
+  margin-top: 10px;
+}
+
+.reg a {
+  font-size: 12px;
+  color: #999;
+}
+
+.forget {
+  float: right;
+  font-size: 12px;
+  color: blue;
+  cursor: pointer;
+}
+
+.auto1 {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #666;
+}
+
+.log {
+  background-color: #5F285F;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 0px;
+  height: 35px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  line-height: 35px;
+  margin: 0 auto;
+}
+
+#foot {
+  color: #595959;
+  background: #f6f6f6;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+#foot ul {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}

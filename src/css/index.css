@@ -1,0 +1,147 @@
+@charset "UTF-8";
+body, html, ul, li, h4, h3, p, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+em, i, strong, b {
+  display: inline-block;
+}
+
+#head {
+  margin-top: 40px;
+}
+
+.swiper-container {
+  margin-top: 13px;
+  width: 100%;
+  height: 500px;
+}
+
+.swiper-container .swiper-button-prev, .swiper-container .swiper-button-next {
+  width: 70px;
+  height: 70px;
+  background: url("../imgs/ad_ctr.png") no-repeat #ddd;
+  border-radius: 35px;
+  opacity: 0.5;
+  display: none;
+}
+
+.swiper-container .swiper-button-next {
+  background-position: 0 -70px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #602962;
+}
+
+#content {
+  padding-bottom: 50px;
+}
+
+.content_head {
+  width: 1200px;
+  margin: 60px auto;
+}
+
+.gushi {
+  width: 100%;
+  height: 961px;
+  background: #f6f6f6;
+}
+
+.gushi_title {
+  width: 259px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.border, .classic_border {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.gushi_img {
+  width: 1060px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.classic_title {
+  margin: 0 auto;
+  width: 451px;
+  margin-top: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.classic_title li {
+  float: left;
+  color: #7f7f7f;
+  font-family: "宋体";
+  margin-left: 35px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.classic_title li:first-child {
+  margin-left: 0;
+}
+
+.classic_head {
+  width: 323px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+#goods {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#goods dl {
+  text-align: center;
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#goods dl dd {
+  color: #666666;
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+dt img {
+  width: 280px;
+  height: 280px;
+}
+
+#foot {
+  color: #595959;
+  background: #f6f6f6;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+#foot ul {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}

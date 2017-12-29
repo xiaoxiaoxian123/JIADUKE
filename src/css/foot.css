@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body, html, ul, li, h4, h3, p, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+em, i, strong, b {
+  display: inline-block;
+}
+#foot ul {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#foot ul li {
+  float: left;
+  width: 258px;
+  text-align: left;
+  line-height: 45px;
+  margin-left: 40px;
+}
+
+#foot ul li a {
+  color: #595959;
+}
+
+.tel {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.dibu {
+  width: 100%;
+  background: #EDE3E2;
+  padding: 15px 0;
+  color: #656764;
+  line-height: 25px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}

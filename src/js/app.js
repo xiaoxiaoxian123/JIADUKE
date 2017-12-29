@@ -1,0 +1,11 @@
+require(["config"],function(){
+	require(["banner","jquery","swiper","index","common","show","cookie","cart","login","register"],function(banner,jquery,swiper,index,common,show,cookie,cart,login,register){
+		banner.init();
+		index.init();
+		common.init();
+		show.init();
+		cart.init();
+		login.init();
+		register.init();
+	})
+})
